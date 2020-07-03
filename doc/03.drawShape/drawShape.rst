@@ -126,13 +126,13 @@ Polygon 그리기
 이미지에 Text 추가
 ==================
 
-.. py:function:: cv2.putText(img, text, org, font, fontSacle, color)
+.. py:function:: cv2.putText(img, text, org, font, fontScale, color)
 
     :param img: image
     :param text: 표시할 문자열
     :param org: 문자열이 표시될 위치. 문자열의 bottom-left corner점
     :param font: font type. CV2.FONT_XXX
-    :param fontSacle: Font Size
+    :param fontScale: Font Size
     :param color: fond color
 
 
